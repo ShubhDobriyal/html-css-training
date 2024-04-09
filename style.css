@@ -143,3 +143,27 @@ header button{
 .heading{
   font-family: 'Oswald';
 }
+main {
+  padding: 15px;
+  font-size: 22px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #b2b2b2;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
